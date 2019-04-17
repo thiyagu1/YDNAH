@@ -1,0 +1,33 @@
+Handy device: 0xFFFFFFFF
+calibrationTime: 2019-4-17/18:11:44
+cameraCount: 2
+
+# Prefer "E+01" type of format for accuracy.
+
+# Intrinsics C and F are in normalized coordinates, i.e. 0.0 - 1.0
+# (from OpenCV values, divide by source image width/height)
+
+# Extrinsics translation is in meters
+
+camera1.type: Handy_left 
+camera1.intrinsicsModel:Pinhole Stereo Calibration Model
+camera1.intrinsicsAspect: 1.600000e+00
+camera1.intrinsicsC: 5.037905e-01,4.760057e-01
+camera1.intrinsicsF: 2.202906e-01,3.531600e-01
+camera1.intrinsicsK: -2.672764e-01,7.332151e-02,-8.848816e-03 
+camera1.intrinsicsP: 1.321980e-03,-1.295748e-03
+camera1.extrinsicsRotation: 9.999631e-01,-2.179941e-03,8.311075e-03,2.174848e-03,9.999974e-01,6.218058e-04,-8.312410e-03,-6.037076e-04,9.999653e-01 
+camera1.extrinsicsTranslation: 0.0
+camera1.New_Projection_Matrix: 3.442041e-04,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,-8.828999e-04,0.000000e+00,0.000000e+00,9.992128e-01,-9.988100e-01,-1.222222e+00,-1.000000e+00,0.000000e+00,0.000000e+00,-1.111111e+00,0.000000e+00 
+
+camera2.type: Handy_Right 
+camera2.intrinsicsModel:Pinhole Stereo Calibration Model
+camera2.intrinsicsAspect: 1.600000e+00
+camera2.intrinsicsC: 5.046921e-01,5.091251e-01
+camera2.intrinsicsF: 2.202906e-01,3.531600e-01
+camera2.intrinsicsK: -2.631593e-01,6.863319e-02,-7.657121e-03 
+camera2.intrinsicsP: 1.321980e-03,-1.295748e-03
+camera2.extrinsicsRotation: 9.999221e-01,-1.248047e-02,-2.537805e-04,1.248030e-02,9.999219e-01,-6.438730e-04,2.617965e-04,6.406556e-04,9.999998e-01 
+camera2.extrinsicsTranslation: -6.384772e-02, 7.969114e-04,1.620457e-05
+camera2.New_Projection_Matrix: 3.442041e-04,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,-8.828999e-04,0.000000e+00,0.000000e+00,9.992114e-01,-9.987272e-01,-1.222222e+00,-1.000000e+00,0.000000e+00,0.000000e+00,-1.111111e+00,0.000000e+00 
+
